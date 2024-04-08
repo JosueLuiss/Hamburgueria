@@ -531,7 +531,7 @@ section .fundoCardapio img{
 }
 
 .galeria{
-    width: 100%;
+    width: 80%;
     height: 510px;
     column-count: 4;
     column-gap: 5px;
