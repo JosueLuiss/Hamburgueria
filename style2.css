@@ -535,6 +535,9 @@ section .fundoCardapio img{
     height: 510px;
     column-count: 2;
     column-gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: rgb(44, 52, 58);
     position: relative;
     bottom: 1080px;
