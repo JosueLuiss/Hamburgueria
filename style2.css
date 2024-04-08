@@ -531,12 +531,12 @@ section .fundoCardapio img{
 }
 
 .galeria{
-    width: 50%;
-    height: 1010px;
+    width: 80%;
+    height: 510px;
     column-count: 4;
     column-gap: 5px;
     background-color: rgb(44, 52, 58);
-    position: relative;
+
     bottom: 1080px;
     margin: auto;
 }
