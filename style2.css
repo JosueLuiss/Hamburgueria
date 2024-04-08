@@ -530,7 +530,8 @@ section .fundoCardapio img{
     font-size: 15px;
 }
 
-.fotos{
+.galeria{
+    width: 1600px;
     display: flex;
     justify-content: space-around;
     background-color: rgb(44, 52, 58);
