@@ -532,7 +532,7 @@ section .fundoCardapio img{
 
 .galeria{
     width: 50%;
-    height: 510px;
+    height: 1010px;
     column-count: 4;
     column-gap: 5px;
     background-color: rgb(44, 52, 58);
