@@ -531,8 +531,8 @@ section .fundoCardapio img{
 }
 
 .galeria{
-    width: 80%;
-    height: 510px;
+    width: 100%;
+  
     column-count: 4;
     column-gap: 5px;
     background-color: rgb(44, 52, 58);
@@ -542,7 +542,7 @@ section .fundoCardapio img{
 }
 
 .galeria img{
-    width: 10%;
+    width: 100%;
 }
 
 .tituloGaleria{
