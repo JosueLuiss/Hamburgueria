@@ -530,18 +530,11 @@ section .fundoCardapio img{
     font-size: 15px;
 }
 
-.galeria{
-    width: 80%;
-    height: 510px;
-    column-count: 2;
-    column-gap: 5px;
+.fotos{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     background-color: rgb(44, 52, 58);
-    position: relative;
-    bottom: 1080px;
-    margin: auto;
+    
 }
 
 .galeria img{
