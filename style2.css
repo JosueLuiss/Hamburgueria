@@ -539,7 +539,7 @@ section .fundoCardapio img{
 }
 
 .galeria img{
-    width: 100%;
+    width: 100px;
 }
 
 .tituloGaleria{
