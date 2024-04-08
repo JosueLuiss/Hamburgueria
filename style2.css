@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    a{text-decoration: none;}
+    li{list-style: none;}  
+}
+
+body{
+    width: 100%;
+    height: 2700px;
+    background-image: url(imagens/design.jpg);
+    color: white;
+    a{color: white;}
+    font-family: sans-serif;
+}
+
+
+.fita{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.1%;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(197, 138, 28);
+    color: black;
+}
+
+
+.fita ul{
+    display: flex;
+    margin-right: 5%;
+}
+
+
+.fita li{
+    margin: 0 4px;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family:sans-serif;
+}
+
+header img{
+    width: 150px;
+}
+
+header ul{
+    display: flex;
+    margin-top: 55px;
+}
+
+header li{
+    margin: 0 1rem;
+    color: white;
+}
+
+header li:hover{
+    color: rgb(197, 138, 28);
+    padding: 1px;
+    transition-duration: 0.2s ;
+}
+
+.delivery{
+    position: relative;
+    border: 5px solid black;  
+    background-color: rgb(197, 138, 28);
+    color: black;
+    padding: 15px 15px;
+    bottom: 20px;
+    border-radius: 0.5cm;
+}
+
+.delivery:hover{
+    background-color: black;
+    padding: 16px;
+    transition-duration: 0.5s ;
+    color: rgb(197, 138, 28);
+    border: 5px solid rgb(197, 138, 28);
+}
+
+section .fundoAnuncio img{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    opacity: 20%;
+}
+
+section .hamburguerFundo img{
+    width: 550px;
+    position: relative;
+    bottom: 500px;
+    left: 20%;
+    opacity: 15%;
+}
+
+.conteudoAssunto{
+    position: relative;
+    bottom: 55rem;
+    font-size: 60px;
+    line-height: 100%;
+    margin-left: 5%;
+}
+
+.conteudoAssunto p{
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+.conteudoAssunto #burguer{    
+    margin-left: 21%;
+}
+
+.conteudoAssunto #pedido{
+    color: black;
+    font-size: 20px;
+    background-color: rgb(197, 138, 28);
+    border: 3px solid black;
+    padding: 15px 20px;
+    margin-left: 13%;
+    font-weight: bolder;
+}
+
+.conteudoAssunto #pedido:hover{
+    padding: 16px 21px;
+    transition: 0.3s;
+}
+
+.descricao{
+    width: 50%;
+    position: relative;
+    color: white;
+    bottom: 1182px;
+    left: 48%;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-size: x-large;
+}
+
+.descricao h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+.cardapio{
+    width: 100%;
+    height: 810px;
+}
+
+section .fundoCardapio img{
+    width: 100%;
+    height: 810px;
+    position: relative;
+    bottom: 1094px;
+    opacity: 30%;
+}
+
+.cardapio .imgFita img{
+    width: 100px;
+    position: relative;
+    bottom: 1950px;
+    left: 46%;
+}
+
+.cardapio .fita2{
+    width: 70%;
+    height: 3px;
+    background-color: rgb(197, 138, 28);
+    position: relative;
+    bottom: 1910px;
+    left: 15%;
+}
+
+
+.nomeCardapio{
+    position: relative;
+    bottom: 1920px;
+    left: 43.5%;
+    font-size: 25px;
+    color: rgb(197, 138, 28);
+    font-family: sans-serif;
+}
+
+.cardapio .x-bacon{
+    width: 200px;
+    height: 320px;
+    left: 8%;
+    position: relative;
+    bottom: 1900px;
+    background-color: rgb(23, 30, 36);
+    padding: 22px;
+    border: 2px solid black;
+    border-radius: 0.2cm;
+}
+
+.cardapio .x-bacon:hover{
+    padding: 24px;
+    transition: 0.3s;
+}
+
+.cardapio .x-bacon img{
+    position: relative;
+    width: 120px;
+    left: 10%;
+}
+
+.cardapio .x-bacon h6{
+    position: relative;
+    left: 50%;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 0.1cm;
+    background-color: rgb(238, 157, 51);
+    color: black;
+    width: 85px;
+    padding: 10px 15px;
+    top: 25px;
+}
+
+.x-bacon{
+    font-size: 15px;
+}
+
+.cardapio .x-tudo{
+    width: 200px;
+    height: 320px;
+    left: 31%;
+    position: relative;
+    bottom: 2220px;
+    background-color: rgb(23, 30, 36);
+    padding: 22px;
+    border: 2px solid black;
+    border-radius: 0.2cm;
+}
+
+.x-tudo:hover{
+    padding: 24px;
+    transition: 0.3s;
+}
+
+.cardapio .x-tudo img{
+    position: relative;
+    width: 130px;
+    bottom: 20px;
+}
+
+.cardapio .x-tudo h6{
+    position: relative;
+    left: 52%;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 0.1cm;
+    background-color: rgb(238, 157, 51);
+    color: black;
+    width: 85px;
+    padding: 10px 11px;
+    top: 17px;
+    text-align: right;
+}
+
+.cardapio .x-tudo p{
+    position: relative;
+    font-size: 15px;
+    bottom: 20px;
+}
+
+.cardapio .x-salada{
+    width: 200px;
+    height: 320px;
+    left: 53%;
+    position: relative;
+    bottom: 2540px;
+    background-color: rgb(23, 30, 36);
+    padding: 22px;
+    border: 2px solid black;
+    border-radius: 0.2cm;
+}
+
+.x-salada:hover{
+    padding: 24px;
+    transition: 0.3s;
+}
+
+.cardapio .x-salada img{
+    position: relative;
+    width: 130px;
+    left: 0%;
+    bottom: 20px;
+}
+
+.cardapio .x-salada h6{
+    position: relative;
+    left: 51%;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 0.1cm;
+    background-color: rgb(238, 157, 51);
+    color: black;
+    width: 80px;
+    padding: 10px 11px;
+    top: 20px;
+    text-align: right;
+}
+
+.cardapio .x-salada p{
+    position: relative;
+    bottom: 35px;
+    font-size: 15px;
+}
+
+.cardapio .artesanal{
+    width: 200px;
+    height: 320px;
+    left: 75%;
+    position: relative;
+    bottom: 2860px;
+    background-color: rgb(23, 30, 36);
+    padding: 22px;
+    border: 2px solid black;
+    border-radius: 0.2cm;
+}
+
+.artesanal:hover{
+    padding: 24px;
+    transition: 0.3s;
+}
+
+.cardapio .artesanal img{
+    position: relative;
+    width: 100px;
+    bottom: 0px;
+    left: 20px;
+}
+
+.cardapio .artesanal h6{
+    position: relative;
+    left: 53%;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 0.1cm;
+    background-color: rgb(238, 157, 51);
+    color: black;
+    width: 85px;
+    padding: 10px 11px;
+    top: 25px;
+    text-align: right;
+}
+
+.cardapio .artesanal p{
+    position: relative;
+    bottom: 0px;
+    font-size: 15px;
+}
+
+.cardapio .x-burguer{
+    width: 200px;
+    height: 320px;
+    left: 8%;
+    position: relative;
+    bottom: 2850px;
+    background-color: rgb(23, 30, 36);
+    padding: 22px;
+    border: 2px solid black;
+    border-radius: 0.2cm;
+}
+
+.cardapio .x-burguer:hover{
+    padding: 24px;
+    transition: 0.3s;
+}
+
+.cardapio .x-burguer img{
+    position: relative;
+    width: 120px;
+    bottom: 20px;
+}
+
+.cardapio .x-burguer h6{
+    position: relative;
+    left: 50%;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 0.1cm;
+    background-color: rgb(238, 157, 51);
+    color: black;
+    width: 85px;
+    padding: 10px 15px;
+    top: 25px;
+}
+
+.cardapio .x-burguer p{
+    position: relative;
+    bottom: 8px;
+    font-size: 15px;
+}
+
+.cardapio .x-eggbacon{
+    width: 200px;
+    height: 320px;
+    left: 31%;
+    position: relative;
+    bottom: 3170px;
+    background-color: rgb(23, 30, 36);
+    padding: 22px;
+    border: 2px solid black;
+    border-radius: 0.2cm;
+}
+
+.x-eggbacon:hover{
+    padding: 24px;
+    transition: 0.3s;
+}
+
+.cardapio .x-eggbacon img{
+    position: relative;
+    width: 120px;
+    left: 0%;
+    bottom: 0px;
+}
+
+.cardapio .x-eggbacon h6{
+    position: relative;
+    left: 55%;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 0.1cm;
+    background-color: rgb(238, 157, 51);
+    color: black;
+    width: 80px;
+    padding: 10px 11px;
+    top: 28px;
+}
+
+.cardapio .x-eggbacon p{
+    position: relative;
+    font-size: 15px;
+}
+
+.cardapio .hamburguer{
+    width: 200px;
+    height: 320px;
+    left: 53%;
+    position: relative;
+    bottom: 3490px;
+    background-color: rgb(23, 30, 36);
+    padding: 22px;
+    border: 2px solid black;
+    border-radius: 0.2cm;
+}
+
+.hamburguer:hover{
+    padding: 24px;
+    transition: 0.3s;
+}
+
+.cardapio .hamburguer img{
+    position: relative;
+    width: 120px;
+    top: 5px;
+}
+
+.cardapio .hamburguer h6{
+    position: relative;
+    left: 53%;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 0.1cm;
+    background-color: rgb(238, 157, 51);
+    color: black;
+    width: 80px;
+    padding: 10px 11px;
+    top: 35px;
+    text-align: right;
+}
+
+.cardapio .hamburguer p{
+    position: relative;
+    font-size: 15px;
+    top: 20px;
+}
+
+.cardapio .eggburguer{
+    width: 200px;
+    height: 320px;
+    left: 75%;
+    position: relative;
+    bottom: 3810px;
+    background-color: rgb(23, 30, 36);
+    padding: 22px;
+    border: 2px solid black;
+    border-radius: 0.2cm;
+}
+
+.eggburguer:hover{
+    padding: 24px;
+    transition: 0.3s;
+}
+
+.cardapio .eggburguer img{
+    position: relative;
+    width: 120px;
+    left: 03%;
+    bottom: 5px;
+}
+
+.cardapio .eggburguer h6{
+    position: relative;
+    left: 51%;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 0.1cm;
+    background-color: rgb(238, 157, 51);
+    color: black;
+    width: 80px;
+    padding: 10px 11px;
+    top: 20px;
+    text-align: right;
+}
+
+.cardapio .eggburguer p{
+    position: relative;
+    font-size: 15px;
+}
+
+.galeria{
+    width: 100%;
+    height: 510px;
+    column-count: 4;
+    column-gap: 5px;
+    background-color: rgb(44, 52, 58);
+    position: relative;
+    bottom: 1080px;
+    margin: auto;
+}
+
+.galeria img{
+    width: 100%;
+}
+
+.tituloGaleria{
+    position: relative;
+    bottom: 1095px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.localização{
+    position: relative;
+    bottom: 1080px;
+    width: 100%;
+    height: 515px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.localização h1{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 15px 0;
+}
+
+.localização iframe{
+    width: 90%;
+    border-radius: 0.5cm;
+    left: 5%;
+}
+
+.sobre{
+    position: relative;
+    bottom: 1020px;
+    width: 100%;
+    height: 600px;
+}
+
+.fundoSobre img{
+    width: 100%;
+    height: 450px;
+    opacity: 15%;
+}
+
+.sobre h1{
+    padding: 15px;
+    position: relative;
+    bottom: 517px;
+    text-align: center;
+    font-size: 26px;
+    border-bottom: 1px white solid;
+    border-top: 1px solid white;
+}
+
+.sobre p{
+    position: relative;
+    bottom: 500px;
+    width: 50%;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 1cm;
+    margin: auto;
+}
+
+.sobre p:hover{
+    background-color: rgb(23, 30, 36);
+    transition: 0.5s;
+    padding: 31px;
+    color:rgb(238, 157, 51);
+    border: 5px black solid;
+}
+
+footer{
+    position: relative;
+    bottom: 1180px;
+    text-align: center;
+    background-color: rgb(23, 30, 36);
+    padding: 60px;
+    border-radius: 0.5cm;
+    border-bottom: 0;
+}
+
+footer h1{
+    position: relative;
+    bottom: 30px;
+    font-size: 25px;
+}
+
+footer ul{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+footer li:hover{
+    color: rgb(238, 157, 51);
+    transition: 0.3s;
+    padding:1px;
+}

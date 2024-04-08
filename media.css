@@ -1,0 +1,305 @@
+@media(max-width:950px){
+
+    .fita{
+        font-size: 11px;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        padding: 0 1px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    header img{
+        display: none;
+    }
+
+    header ul{
+        display: flex;
+        margin-top: 55px;
+    }
+    
+    header li{
+        margin: 0 5px;
+        color: white;
+    }
+
+    #headerSobre{
+        display: none;    
+    }
+
+    section .fundoAnuncio img{
+        height: 1000px;
+    }
+
+    section .hamburguerFundo img{
+        width: 280px;
+        bottom: 900px;
+        left: 5%;
+    }
+
+    .conteudoAssunto{
+        bottom: 1200px;
+        font-size: 50px;
+    }
+
+    .conteudoAssunto #burguer{    
+        margin-left: 51%;
+    }
+
+    .conteudoAssunto #pedido{
+        position: relative;
+        font-size: 16px;
+        padding: 10px 10px;
+        margin-left: 38%;
+        bottom: 20px;
+    }
+
+    .conteudoAssunto #pedido:hover{
+        padding: 11px 11px;
+    }
+
+    .descricao{
+        width: 80%;
+        position: relative;
+        bottom: 1182px;
+        left: 13%;
+        font-family: sans-serif;
+        font-size: 18px;
+    }
+    
+    .descricao h1{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .cardapio .imgFita img{
+        left: 35%;
+    }
+
+    .nomeCardapio{
+        left: 30%;
+        font-size: 20px;
+    }
+
+    .cardapio .x-bacon{
+        width: 135px;
+        height: 255px;
+        left: 3%;
+        padding: 22px;
+        border: 1px solid black;
+        border-radius: 0.2cm;
+    }
+
+    .cardapio .x-bacon img{
+        position: relative;
+        width: 70px;
+        left: 0px;
+    }
+    
+    .cardapio .x-bacon h6{
+        left: 35px;
+        font-size: 11px;
+        border: 1px solid black;
+        width: 50px;
+        padding: 05px 0px;
+        top: 13px;
+        text-align: right;
+    }
+
+    .x-bacon p{
+        font-size: 12px;
+    }
+
+    .cardapio .x-tudo{
+        width: 135px;
+        height: 255px;
+        left: 51%;
+        bottom: 2155px;
+    }
+    
+    .cardapio .x-tudo img{
+        position: relative;
+        width: 70px;
+        bottom: 20px;
+        left: 0px;
+    }
+    
+    .cardapio .x-tudo h6{
+        left: 38%;
+        font-size: 11px;
+        border: 1px solid black;
+        width: 70px;
+        padding: 1px 0px;
+        top: 0px;
+        text-align: right;
+    }
+    
+    .cardapio .x-tudo p{
+        font-size: 12px;
+        bottom: 20px;
+    }
+
+    .cardapio .x-salada{
+        width: 135px;
+        height: 255px;
+        left: 3%;
+        bottom: 2150px;
+        padding: 22px;
+    }
+    
+    .x-salada:hover{
+        padding: 24px;
+        transition: 0.3s;
+    }
+    
+    .cardapio .x-salada img{
+        position: relative;
+        width: 70px;
+        left: 0%;
+        bottom: 25px;
+    }
+    
+    .cardapio .x-salada h6{
+        left: 53%;
+        font-size: 11px;
+        border: 1px solid black;
+        width: 50px;
+        padding: 3px 0px;
+        top: 0px;
+        text-align: right;
+    }
+    
+    .cardapio .x-salada p{
+        bottom: 35px;
+        font-size: 12px;
+    }
+
+    .cardapio .artesanal{
+        width: 135px;
+        height: 255px;
+        left: 51%;
+        bottom: 2405px;
+    }
+    
+    .cardapio .artesanal img{
+        width: 60px;
+        bottom: 15px;
+        left: 0px;
+    }
+    
+    .cardapio .artesanal h6{
+        left: 51%;
+        font-size: 12px;
+        border: 1px solid black;
+        width: 55px;
+        padding: 2px 0px;
+        top: 4px;
+        text-align: right;
+    }
+    
+    .cardapio .artesanal p{
+        bottom: 20px;
+        font-size: 12px;
+    }
+    
+    .x-burguer, .x-eggbacon, .hamburguer, .eggburguer{
+        display: none;
+    }
+
+    .galeria{
+        height: 280px;
+        column-count: 3;
+        bottom: 1228px;
+        margin: auto;
+    }
+
+    .tituloGaleria{
+        bottom: 1230px;
+        font-size: 12px;
+    }
+
+    .localização{
+        bottom: 1230px;
+        height: 415px;
+    }
+    
+    .localização h1{
+        padding: 8px 0;
+    }
+    
+    .localização iframe{
+        width: 90%;
+        height: 30%;
+        position: relative;
+        top: 5px;
+        left: 0;
+    }
+
+    .sobre{
+        bottom: 1400px;
+    }
+    
+    .sobre h1{
+        padding: 8px;
+        bottom: 517px;
+        font-size: 24px;
+    }
+    
+    .sobre p{
+        bottom: 510px;
+        width: 90%;
+        font-size: 15px;
+        padding: 30px;
+    }
+
+    footer{
+        bottom: 1540px;
+        padding: 40px;
+    }
+    
+    footer h1{
+        position: relative;
+        bottom: 30px;
+        font-size: 20px;
+    }
+    
+    footer ul{
+        display: flex;
+        width: 50%;
+        font-size: 12px;
+        position: relative;
+        right: 39%;
+    }
+
+    footer li{
+        margin: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
